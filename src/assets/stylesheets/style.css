@@ -8,9 +8,10 @@
 body {
   background-color: #1A1737;
   margin: 0 20px;
+  padding-bottom: 100px;
 }
 
-/* line 12, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 .header {
   width: 100%;
   top: 0;
@@ -23,31 +24,38 @@ body {
   -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
 }
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .header img {
   width: 35px;
   margin: 10px 0;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .home {
   margin-top: 105px;
   background-color: #1A1737;
   color: #fff;
   border: 2px solid white;
 }
-/* line 37, ../sass/style.scss */
-.home .shop {
-  border: 1px solid white;
+/* line 38, ../sass/style.scss */
+.home .container-shop {
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  margin: 0 15px;
+  height: 300px;
+  background-color: #141841;
+  width: 20%;
+  display: inline-block;
 }
 
-/* line 42, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .h2 {
   font-size: 25px;
   font-weight: bold;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .footer {
   background-color: #1A1737;
   width: 100%;
@@ -60,28 +68,33 @@ body {
   -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
 }
-/* line 60, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .footer li {
   display: inline-block;
 }
-/* line 64, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .footer img {
   width: 35px;
   margin: 0 35px;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .non-mobile {
   background-color: #F6F6F6;
   width: 100%;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .left {
   float: left;
 }
 
-/* line 79, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .droite {
   float: right;
+}
+
+/* line 92, ../sass/style.scss */
+.centre {
+  text-align: center;
 }
