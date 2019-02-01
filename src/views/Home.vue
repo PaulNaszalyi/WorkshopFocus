@@ -23,6 +23,9 @@
 
     <div class="balance">
       <p class="h2">BALANCE</p>
+      <div class="container-balance">
+        <p>Test balance</p>
+      </div>
     </div>
   </div>
 </template>
