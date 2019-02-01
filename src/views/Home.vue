@@ -3,7 +3,7 @@
     <div class="blast-pro-series">
       <p class="h2">BLAST PRO SERIES</p>
       <div class="video-youtube">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/E4pyzeTvFC0" frameborder="0"
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/E4pyzeTvFC0" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
       </div>
