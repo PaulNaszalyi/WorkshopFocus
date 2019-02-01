@@ -5,6 +5,12 @@
   }
 }
 /* line 7, ../sass/style.scss */
+body {
+  background-color: #1A1737;
+  margin: 0 20px;
+}
+
+/* line 12, ../sass/style.scss */
 .header {
   width: 100%;
   top: 0;
@@ -12,9 +18,36 @@
   position: fixed;
   background-color: #1A1737;
   color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+}
+/* line 25, ../sass/style.scss */
+.header img {
+  width: 35px;
+  margin: 10px 0;
 }
 
-/* line 16, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
+.home {
+  margin-top: 105px;
+  background-color: #1A1737;
+  color: #fff;
+  border: 2px solid white;
+}
+/* line 37, ../sass/style.scss */
+.home .shop {
+  border: 1px solid white;
+}
+
+/* line 42, ../sass/style.scss */
+.h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* line 47, ../sass/style.scss */
 .footer {
   background-color: #1A1737;
   width: 100%;
@@ -22,16 +55,33 @@
   bottom: 0;
   left: 0;
   color: #FFFFFF;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+}
+/* line 60, ../sass/style.scss */
+.footer li {
+  display: inline-block;
+}
+/* line 64, ../sass/style.scss */
+.footer img {
+  width: 35px;
+  margin: 0 35px;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .non-mobile {
-  position: fixed;
   background-color: #F6F6F6;
   width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border: 4px solid black;
-  display: none;
+}
+
+/* line 75, ../sass/style.scss */
+.left {
+  float: left;
+}
+
+/* line 79, ../sass/style.scss */
+.droite {
+  float: right;
 }
